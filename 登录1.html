@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			*{margin: 0;padding: 0;}
+			#box{width: 1100px;margin: 0 auto;}
+			ul{list-style: none;}
+			#rongqi{
+				
+				margin: 0 auto;
+				width: 900px;
+				height: 400px;
+				background:url(img/20150826171209.jpg) no-repeat 500px;
+				border: 1px solid #CCCCCC;
+				padding: 10px 50px;
+			}
+			 #header{position: relative;width: 1100px;}
+			 #header #nav2 {position: absolute;top: 255px;}
+			 #header #nav2 ul li{float: left;padding: 8.5px 39px 0px 0px;}
+			 #header #nav2 ul li a{text-decoration: none;color:#FFFFFF;transition: all 3s; }
+			 #header #nav2 ul li.souye{padding: 8.5px 330px 0px 0px; }
+			 #header #nav2 ul li a:hover{color: orange;transform: rotate(360deg);position: relative;left: 3px;top: 3px;}
+			#denglu{
+				padding-top: 70px;
+			}
+			#dl{
+				width: 250px;
+				
+			}
+			#rongqi ul{
+				list-style: none;
+				padding-top: 50px;
+			}
+			#rongqi ul li{
+				padding: 10px 0px 5px 0px;
+			}
+			#jizhu{
+				margin-left: 50px;
+			}
+		   #rongqi ul li input
+		   {
+			   	width: 300px;
+			   	height: 25px;
+			   	border-radius: 4px;
+			   	border: solid 1px #CCCCCC;
+		   	
+		   }
+		    #rongqi ul li input.jizhu
+		    {
+		    	width: 13px;
+		    	height: 13px;
+		    }
+			#rongqi ul li input#text
+				{
+				 background-color: #CC3333;
+				 margin-left: 44px;
+				}
+			#text1{
+				margin-left: 160px;
+				font-size: 12px;
+			}
+				#text1 a{
+				text-decoration: none;
+				}
+		</style>
+	</head>
+	<body>
+		<div id="box">
+			<div id="header">
+				<iframe src="头部.html" frameborder="0" scrolling="no" width="1100" height="292"></iframe>
+				<div id="nav2">
+			 	  	      <ul>
+			  	 		 	<li class="souye"><a hrel="#">当前位置:首页</a></li>
+			  	 		 	
+			  	 		 	<li><a href="首页.html" target="_self">首页</a></li>
+			  	 		 	
+			  	 		 	<li><a href="大类更多.html" target="_self">热门图书</a></li>
+			  	 		 	
+			  	 		 	<li><a href="小类更多.html" target="_self">新书上架</a></li>
+			  	 		 	
+			  	 		 	<li><a href="详情.html" target="_self">销售排行榜</a></li>
+			  	 		 	
+			  	 		 	<li><a href="搜索.html" target="_self">读者推荐</a></li>
+			  	 		 	
+			  	 		 	<li><a href="购物车.html" target="_self">购物车</a></li>
+			  	 		 	
+			  	 		 	<li><a href="登录1.html">登录</a></li>
+			  	 		 </ul>
+		 	        </div>
+			</div>
+				<div id="rongqi">
+					<ul>
+						<li id="denglu">
+							用户登录
+						</li>
+						<li>账号：<input type="text" id="dl" style="text-indent: 5px;"></li>
+						<li>密码：<input type="password" id="dl" style="text-indent: 5px;"></li>
+						<li><input type="checkbox" id="jizhu" class="jizhu">记住我</li>
+						<li><input type="button" value="登录" id="text"></li>
+						<li id="text1">还不是书城用户？<a href="注册.html">免费注册</a></li>
+					</ul>
+				</div>
+			<div id="footer">
+				<iframe src="脚部.html" frameborder="no" scrolling="no" width="1100" height="234"></iframe>
+			</div>
+		</div>
+	</body>
+</html>

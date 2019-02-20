@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			*{margin: 0;padding: 0;}
+			ul{list-style: none;margin: 0;padding: 0;}
+			  #header{background:url(img/Header.jpg) no-repeat;height: 292px; position:relative;border: none;}
+			  #header #nav1{position: absolute;left:330px;top: 180px;}
+			  #header #nav1 ul li input{border: solid 1px #D0CCCA;margin-bottom: 10px;text-indent: 4px;}
+			  #header #nav1 ul li input:focus{border: solid 1px #009AE2;}
+			  #header #nav1 ul li select{margin-right: 4px; height: 39px; border:solid 1px #D0CCCA;}
+			  #header #nav1 ul li select:focus{border:solid 1px #D0CCCA;  }
+			  #header #nav1 ul li.hotsearch{color: #8A98B9;font-size: 12px;}
+			 #header #nav1 ul li input.input_2{height: 39px;padding: 0px 20px;background-color: #ff0000;color: white;font-weight: bold;}
+			#header #nav1 ul li input.input_2:focus{background-color: #37A5F4;}
+			 #header #nav1 ul li input.input_1{ width: 410px; height: 35px; }
+				
+		</style>
+	</head>
+	<body>
+		 <div id="header">	
+		 	  <div id="nav1">
+		 	  	     <ul>
+		  	 		  	<li>
+		  	 		  		<input type="text" id="txtsearch" name="txtsearch" class="input_1"  placeholder="奔跑吧少年"><select id="sel" name="sel"><option value="全部分类" selected="selected">全部分类</option><option value="其他">其他</option></select><input type="button" id="btnsearch" name="btnsearch" value="搜索" class="input_2" />
+		  	 		  	</li>
+		  	 		  	<li class="hotsearch">热搜: .net　java</li>
+		  	 		  </ul>
+		 	  </div>
+		 	 
+		 </div>
+	</body>
+</html>

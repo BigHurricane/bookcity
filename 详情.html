@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			 *{margin: 0; padding: 0;}
+			 ul{list-style: none;}
+			 #box{width: 1100px;margin: 0 auto;}
+			 #bodyer{width: 1000px;margin: 0 auto;}
+			  #bodyer .lancolor{color: #0094FF;font-size: 20px;}
+			  #bodyer .tab2 .jianju{padding-bottom: 10px;}
+			  #header{position: relative;width: 1100px;}
+			 #header #nav2 {position: absolute;top: 255px;}
+			 #header #nav2 ul li{float: left;padding: 8.5px 39px 0px 0px;}
+			 #header #nav2 ul li a{text-decoration: none;color:#FFFFFF ;}
+			 #header #nav2 ul li.souye{padding: 8.5px 330px 0px 0px; }
+			 #header #nav2 ul li a:hover{color: orange; }
+			 #bodyer .top{margin-top:5px;display: inline-block; }
+			 #bodyer .twelve{font-size: 16px;}
+			 #bodyer .small{color: darkgray;}
+			 #bodyer .gray{background-color: lightgray;padding: 10px 0px 10px 10px;display: block;margin-bottom: 15px; }
+			  #bodyer .red {color: red;font-size: 20px; }
+			  #bodyer .ipt1,#bodyer .ipt2 {padding: 5px 20px;border-radius: 5px;border: solid 1px red;margin-right: 10px; }
+			  #bodyer .ipt2{color: red;}
+			  #bodyer .ipt1{background: red;padding: 5px 5px;color: white;}
+		</style>
+	</head>
+	<body>
+		<div id="box">
+			<div id="header">
+				<iframe src="头部.html" frameborder="0" scrolling="no" width="1100" height="292"></iframe>
+				<div id="nav2">
+			 	  	      <ul>
+			  	 		 	<li class="souye"><a hrel="#">当前位置:首页</a></li>
+			  	 		 	
+			  	 		 	<li><a href="首页.html" target="_self">首页</a></li>
+			  	 		 	
+			  	 		 	<li><a href="大类更多.html" target="_self">热门图书</a></li>
+			  	 		 	
+			  	 		 	<li><a href="小类更多.html" target="_self">新书上架</a></li>
+			  	 		 	
+			  	 		 	<li><a href="" target="_self">销售排行榜</a></li>
+			  	 		 	
+			  	 		 	<li><a href="#" target="_self">读者推荐</a></li>
+			  	 		 	
+			  	 		 	<li><a href="购物车.html" target="_self">购物车</a></li>
+			  	 		 	
+			  	 		 	<li><a href="登录1.html">登录</a></li>
+			  	 		 </ul>
+		 	        </div>
+			</div>
+			<div id="bodyer">
+				 <table>
+				 	<tr>
+				 		<td class="top"><img src="img/Books/9787115410238.jpg" height="312" width="210"></td>
+				 		<td>
+				 			<table class="tab2">
+				 				 <tr><td class="lancolor jianju">精通ASP.NET MVC 5</td></tr>
+				 				 <tr><td class="jianju small">ASP.NET MVC 5框架是微软ASP.NET Web平台的新进展。它提供了高生产率的编程模型，结合ASP。NET的全部优势，促成更整洁的代码架构，测试驱动开发和强大的可扩展性。本书适合程序员，web开发者学习，也适合作为大中专学院校相关的师生用书和培训学校的教材。</td></tr>
+				 				 <tr><td class="jianju">作者：<span class="lancolor twelve">Adam Freeman</span>著 出版社:<span class="lancolor twelve">人民邮电出版社</span>出版日期:2015-12-01</td></tr>
+				 				 <tr><td class="jianju gray">商城价<br/><span class="red">¥83.<small>4</small></span><small>(8折)原价¥95</small></td></tr>
+				 				 <tr><td class="jianju">配送至:
+				 				 	<select id="sheng" name="sheng">
+				 				 		<option value="湖北">湖北</option>
+				 				 		<option value="湖南">湖南</option>
+				 				 	</select>省
+				 				 	<select id="city" name="city">
+				 				 	     <option value="武汉">武汉</option>
+				 				 	     <option value="湖南">湖南</option>
+				 				 	</select>市
+				 				 	<select id="area" name="area">
+				 				 		  <option value="江夏">江夏</option>
+				 				 	</select>区
+				 				 </td></tr>
+				 				 <tr><td class="jianju">服务:由"多康林" 发货，并提供售后服务。22:45前完成下单，预计后天可以送达</td></tr>
+				 				 <tr><td>
+				 				 	<select id="sel" name="sel">
+				 				 		<option value="1">1</option>
+				 				 	</select> <input type="button" id="btnshop" name="btnshop" value="加入购物车" class="ipt1" /><input type="button" id="btnbuy" name="btnbuy" value="立即购买" class="ipt2"/>
+				 				 </td></tr>
+				 			</table>
+				 		</td>
+				 		<td class="top"><img src="img/detailsRight.png"></td>
+				 	</tr>
+				 	 
+				 </table>
+			</div>
+			<div id="footer">
+				<iframe src="脚部.html" frameborder="no" scrolling="no" width="1100" height="234"></iframe>
+			</div>
+		</div>
+		
+	</body>
+</html>

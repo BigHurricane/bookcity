@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车</title>
+		<style>
+			.one{color: red;}
+			ul{margin: 0px auto;list-style: none;}
+			a{text-decoration: none;}
+			#rq{width: 1100px;height: 1000px;margin: 0 auto;background-color: white;}
+			 #tou{position: relative;width: 1100px;}
+			 #tou #nav2 {position: absolute;top: 255px;}
+			  #tou #nav2 ul{margin: 0; padding: 0;}
+			 #tou #nav2 ul li{float: left;padding: 8.5px 39px 0px 0px;}
+			 #tou #nav2 ul li.souye{padding: 8.5px 330px 0px 0px; }
+			  #tou #nav2 ul li a{text-decoration: none;color:#FFFFFF;transition:transform 3s;}
+			 #tou #nav2 ul li a:hover{color: orange;transform: transform: translate(5px,5px) rotate(360deg) ;}
+			#st{width: 900px;margin: 0 auto;}
+		    #st_1{ height: 40px;background-color: red;}
+			#st_1 ul{padding: 5px 0px 0px 200px;}
+			#st_1 ul li{float: left;padding: 10px 0px 0px 80px;color: white;}
+			#st_1 ul li.first{padding: 10px 100px 0px 50px;}
+			#st_2{border: solid 1px gray;background-color:white;}
+			 #st_2 ul{ margin-left: -40px;overflow:hidden; }
+			  #st_2 ul li{ float: left;padding: 60px 50px 0px 0px;}
+			 #st_2 ul li.st_2_first{padding: 0px 15px 0px 0px;width: 150px;height: 150px;}
+			 #st_2 ul li.money{padding-right: 70px;}
+			 #st_2 ul li.rightjl {padding:60px 78px 0px 20px;}
+		     #st_2 span{padding: 20px 0px 30px 580px;display: inline-block;}
+			#st_3{padding: 10px 0px 0px 715px;}
+			#st_3 span{border: solid 1px red;background-color: #FF0000;font-size: 16px;display: inline-block;padding: 5px 20px;}
+			#st_3 span a{color: white;}
+			#rq #st #st_2 img
+			{
+				transition:transform 3s;
+			}
+			#rq #st #st_2 img:hover
+			{
+				transform: translate(2px,2px) rotate(360deg) ;
+				
+			}
+		</style>
+		<script src="jquery/jquery-1.11.1.min.js"></script>
+		
+		
+	</head>
+	<body>
+		<div id="rq">
+			<div id="tou">
+				    <iframe src="头部.html" scrolling="no" width="1100px" height="292px" frameborder="0"></iframe>
+				    <div id="nav2">
+			 	  	      <ul>
+			  	 		 	<li class="souye"><a hrel="#">当前位置:首页</a></li>
+			  	 		 	
+			  	 		 	<li><a href="首页.html" target="_self">首页</a></li>
+			  	 		 	
+			  	 		 	<li><a href="大类更多.html" target="_self">热门图书</a></li>
+			  	 		 	
+			  	 		 	<li><a href="小类更多.html" target="_self">新书上架</a></li>
+			  	 		 	
+			  	 		 	<li><a href="" target="_self">销售排行榜</a></li>
+			  	 		 	
+			  	 		 	<li><a href="#" target="_self">读者推荐</a></li>
+			  	 		 	
+			  	 		 	<li><a href="购物车.html" target="_self">购物车</a></li>
+			  	 		 	
+			  	 		 	<li><a href="登录1.html">登录</a></li>
+			  	 		 </ul>
+		 	        </div>
+			</div>
+			
+		
+			<div id="st">
+				
+				<div id="st_1">
+					<ul>
+						<li class="first">书名</li>
+						<li>价格</li>
+						<li>数量</li>
+						<li>小计</li>
+						<li>操作</li>						
+					</ul>
+	
+				</div>
+				<div id="st_2">					
+					<ul>
+						<li class="st_2_first"><img src="img/Books/9787561346006.jpg" width="150" height="150" id="img1"></li>
+						<li class="bc"><a href="#">Visual Studio 2015高级编码教程</a></li>
+						<li>109.9<br /> <font class="one">优惠33</font></li>
+						<li class="rightjl">-1+</li>
+						<li class="money">109.<small>9</small></li>
+						<li><img src="img/del.gif" id="hide1"/></li>
+						
+					</ul>
+					<hr />
+					<ul>
+						<li class="st_2_first"><img src="img/Books/9787561346006.jpg" width="150" height="150" id="img2"></li>
+						<li class="bc"><a href="#">Visual Studio 2015高级编码教程</a></li>
+						<li>109.9<br /> <font class="one">优惠33</font></li>
+						<li class="rightjl">-1+</li>
+						<li class="money">109.<small>9</small></li>
+						<li><img src="img/del.gif" id="hide2"/></li>
+						
+					</ul>
+					<hr />
+					<ul>
+						<li class="st_2_first"><img src="img/Books/9787561346006.jpg" width="150" height="150" id="img3"></li>
+						<li class="bc"><a href="#">Visual Studio 2015高级编码教程</a></li>
+						<li>109.9<br /> <font class="one">优惠33</font></li>
+						<li class="rightjl">-1+</li>
+						<li class="money">109.<small>9</small></li>
+						<li><img src="img/del.gif" id="hide3"/></li>
+						
+					</ul>
+				    <hr />
+					
+					<span> 总金额:　　　109.<small>9</small> </span>
+				</div>
+				
+				
+				<div id="st_3">
+					
+				
+					<span>	<a href="">继续购物</a></span>
+					<span>	<a href="">结算</a></span>
+						
+					</form>
+					
+					
+					
+				</div>
+			
+				
+			</div>
+			
+			
+			<div id="jiao">
+				<iframe src="脚部.html" scrolling="no" width="1100px" height="234px" frameborder="0"></iframe>
+			</div>
+ 
+		</div>
+		<script>
+			$(function()
+			{
+				 $("#hide1").click(function()
+				 {
+				 	 $("#img1").hide();
+				 }) 
+				  $("#hide1").dblclick(function()
+				  {
+				  	  $("#img1").show();
+				  })
+				  
+				   $("#hide2").click(function()
+				 {
+				 	 $("#img2").hide();
+				 }) 
+				  $("#hide2").dblclick(function()
+				  {
+				  	  $("#img2").show();
+				  })
+				  
+				   $("#hide3").click(function()
+				 {
+				 	 $("#img3").hide();
+				 }) 
+				  $("#hide3").dblclick(function()
+				  {
+				  	  $("#img3").show();
+				  })
+			})
+			 	
+		</script>
+	</body>
+</html>

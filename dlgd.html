@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>大类更多</title>
+		<style>
+			body {
+				margin: 0px;
+				padding: 0px;
+			}
+			/************共用部分*****************/
+			
+			span.name {
+				font-size: 20px;
+				color: #fff;
+				font-weight: bold;
+			}
+			
+			span.gengduo {
+				font-size: 12px;
+				color: #fff;
+			}
+			
+			h4 {
+				margin: 0px;
+				padding: 5px 0px 2px 40px;
+				color: #273A8C;
+			}
+			
+			p {
+				margin: 0px;
+				padding: 0px;
+			}
+			
+			ul {
+				margin: 0px;
+				padding: 0px;
+			}
+			
+			#divContainer {
+				margin: 0px auto;
+				padding: 0px;
+				width: 1100px;
+				height: 1000px;
+				/*background-color: pink;*/
+			}
+			/************头部开始***************/
+			
+			#divHeader {
+				
+			}
+			/**************内容开始************/
+			
+			#divContents {
+			
+			}
+			
+			#divContents #one {
+				float: left;
+				margin: 10px 2px 0px 2px;
+				background-color: #FFFFFF;
+				/**测试***/
+				width: 1095px;
+				height: 230px;
+				border: solid red 1px;
+			}
+			
+			#divContents #one ul {}
+			
+			#divContents #one ul li {
+				list-style: none;
+				float: left;
+				font-size: 14px;
+				padding: 0px 20px;
+			}
+			
+			#divContents #one #nav {
+				width: 1095px;
+				height: 40px;
+				background-color: #FF3030;
+			}
+			
+			#divContents #one #nav span.name {
+				text-align: center;
+				padding: 0px 0px 0px 10px;
+			}
+			
+			#divContents #one #nav span.gengduo {
+				text-align: center;
+				padding: 0px 0px 0px 998px;
+			}
+			
+			#divContents #one #main {}
+			
+			#divContents #one #main #one_1 {
+				margin: 0px 0px 0px 3px;
+				padding: 0px 0px 0px 10px;
+				/*width:364px;*/
+				height: 160px;
+				background: url(img/Books/9787302288473.jpg) no-repeat #FFFFFF;
+			}
+			
+			#divContents #one #main #one_2 {
+				margin:  0px 0px 0px 3px;
+				padding: 0px 0px 0px 10px;
+				/*width:364px;*/
+				height: 160px;
+				background: url(img/Books/9787121125706.jpg) no-repeat #FFFFFF;
+			}
+			
+			#divContents #one #main #one_3 {
+				margin: 0px 0px 0px 3px;
+				padding:0px 0px 0px 10px;
+				/*width:364px;*/
+				height: 160px;
+				background: url(img/Books/9787121155352.jpg) no-repeat #FFFFFF;
+			}
+			
+			#one_1 p {
+				float: left;
+				padding: 0px 0px 10px 150px;
+				line-height: 20px;
+			}
+			
+			#one_1 p del {
+				color: #999999;
+			}
+			
+			#one_1 p span.shu {
+				color: #FF4142;
+			}
+			
+			#one_1 p span.xiaoshu {
+				color: #FF4142;
+				font-size: 12px;
+			}
+			
+			#one_1 p span.xiangqing {
+				color: #FF0D0D;
+			}
+			
+			#one_1 p span.tuijian {
+				color: #7C2FAD;
+			}
+			
+			#one_2 p {
+				float: left;
+				padding: 0px 0px 10px 150px;
+				line-height: 20px;
+			}
+			
+			#one_2 p del {
+				color: #999999;
+			}
+			
+			#one_2 p span.shu {
+				color: #FF4142;
+			}
+			
+			#one_2 p span.xiaoshu {
+				color: #FF4142;
+				font-size: 12px;
+			}
+			
+			#one_2 p span.xiangqing {
+				color: #FF0D0D;
+			}
+			
+			#one_2 p span.tuijian {
+				color: #7C2FAD;
+			}
+			
+			#one_3 p {
+				float: left;
+				padding: 0px 0px 10px 150px;
+				line-height: 20px;
+			}
+			
+			#one_3 p del {
+				color: #999999;
+			}
+			
+			#one_3 p span.shu {
+				color: #FF4142;
+			}
+			
+			#one_3 p span.xiaoshu {
+				color: #FF4142;
+				font-size: 12px;
+			}
+			
+			#one_3 p span.xiangqing {
+				color: #FF0D0D;
+			}
+			
+			#one_3 p span.tuijian {
+				color: #7C2FAD;
+			}
+			
+			#divContents #two {
+				float: left;
+				margin: 15px 2px 0px 2px;
+				background-color: #FFFFFF;
+				/**测试***/
+				width: 1095px;
+				height: 230px;
+				border: solid red 1px;
+			}
+			
+			#divContents #two ul {}
+			
+			#divContents #two ul li {
+				list-style: none;
+				float: left;
+				font-size: 14px;
+				padding: 0px 20px;
+			}
+			
+			#divContents #two #nav {
+				width: 1095px;
+				height: 40px;
+				background-color: #FF3030;
+			}
+			
+			#divContents #two #nav span.name {
+				text-align: center;
+				padding: 0px 0px 0px 10px;
+			}
+			
+			#divContents #two #nav span.gengduo {
+				text-align: center;
+				padding: 0px 0px 0px 998px;
+			}
+			
+			#divContents #two #main {}
+			
+			#divContents #two #main #one_1 {
+				margin: 0px 0px 0px 3px;
+				padding: 0px 0px 0px 10px;
+				/*width:364px;*/
+				height: 160px;
+				background:url(img/Books/9787302337416.jpg) no-repeat #FFFFFF;
+			}
+			
+			#divContents #two #main #one_2 {
+				margin: 0px 0px 0px 3px;
+				padding: 0px 0px 0px 10px;
+				/*width:364px;*/
+				height: 160px;
+				background:url(img/Books/9787302288473.jpg) no-repeat #FFFFFF;
+			}
+			
+			#divContents #two #main #one_3 {
+				margin: 0px 0px 0px 3px;
+				padding:0px 0px 0px 10px;
+				/*width:364px;*/
+				height: 160px;
+				background:url(img/Books/9787302371090.jpg) no-repeat #FFFFFF;
+			}
+			
+			#two_1 p {
+				float: left;
+				padding: 0px 0px 10px 150px;
+				line-height: 20px;
+			}
+			
+			#two_1 p del {
+				color: #999999;
+			}
+			
+			#two_1 p span.shu {
+				color: #FF4142;
+			}
+			
+			#two_1 p span.xiaoshu {
+				color: #FF4142;
+				font-size: 12px;
+			}
+			
+			#two_1 p span.xiangqing {
+				color: #FF0D0D;
+			}
+			
+			#two_1 p span.tuijian {
+				color: #7C2FAD;
+			}
+			
+			#two_2 p {
+				float: left;
+				padding: 0px 0px 10px 150px;
+				line-height: 20px;
+			}
+			
+			#two_2 p del {
+				color: #999999;
+			}
+			
+			#two_2 p span.shu {
+				color: #FF4142;
+			}
+			
+			#two_2 p span.xiaoshu {
+				color: #FF4142;
+				font-size: 12px;
+			}
+			
+			#two_2 p span.xiangqing {
+				color: #FF0D0D;
+			}
+			
+			#two_2 p span.tuijian {
+				color: #7C2FAD;
+			}
+			
+			#two_3 p {
+				float: left;
+				padding: 0px 0px 10px 150px;
+				line-height: 20px;
+			}
+			
+			#two_3 p del {
+				color: #999999;
+			}
+			
+			#two_3 p span.shu {
+				color: #FF4142;
+			}
+			
+			#two_3 p span.xiaoshu {
+				color: #FF4142;
+				font-size: 12px;
+			}
+			
+			#two_3 p span.xiangqing {
+				color: #FF0D0D;
+			}
+			
+			#two_3 p span.tuijian {
+				color: #7C2FAD;
+			}
+			
+			#divContents #three {
+				float: left;
+				margin: 15px 2px 10px 2px;
+				background-color: #FFFFFF;
+				/**测试***/
+				width: 1095px;
+				height: 230px;
+				border: solid red 1px;
+			}
+			
+			#divContents #three ul {}
+			
+			#divContents #three ul li {
+				list-style: none;
+				float: left;
+				font-size: 14px;
+				padding: 0px 20px;
+			}
+			
+			#divContents #three #nav {
+				width: 1095px;
+				height: 40px;
+				background-color: #FF3030;
+			}
+			
+			#divContents #three #nav span.name {
+				text-align: center;
+				padding: 0px 0px 0px 10px;
+			}
+			
+			#divContents #three #nav span.gengduo {
+				text-align: center;
+				padding: 0px 0px 0px 998px;
+			}
+			
+			#divContents #three #main {}
+			
+			#divContents #three #main #one_1 {
+				margin: 0px 0px 0px 3px;
+				padding: 0px 0px 0px 10px;
+				/*width:364px;*/
+				height: 160px;
+				background:url(img/Books/9787302337416.jpg) no-repeat #FFFFFF;
+			}
+			
+			#divContents #three #main #one_2 {
+				margin: 0px 0px 0px 3px;
+				padding: 0px 0px 0px 10px;
+				/*width:364px;*/
+				height: 160px;
+				background:url(img/Books/9787302337416.jpg) no-repeat #FFFFFF;
+			}
+			
+			#divContents #three #main #one_3 {
+				margin:  0px 0px 0px 3px ;
+				padding: 0px 0px 0px 10px;
+				/*width:364px;*/
+				height: 160px;
+				background:url(img/Books/9787302337416.jpg) no-repeat #FFFFFF;
+			}
+			
+			#three_1 p {
+				float: left;
+				padding: 0px 0px 10px 150px;
+				line-height: 20px;
+			}
+			
+			#three_1 p del {
+				color: #999999;
+			}
+			
+			#three_1 p span.shu {
+				color: #FF4142;
+			}
+			
+			#three_1 p span.xiaoshu {
+				color: #FF4142;
+				font-size: 12px;
+			}
+			
+			#three_1 p span.xiangqing {
+				color: #FF0D0D;
+			}
+			
+			#three_1 p span.tuijian {
+				color: #7C2FAD;
+			}
+			
+			#three_2 p {
+				float: left;
+				padding: 0px 0px 10px 150px;
+				line-height: 20px;
+			}
+			
+			#three_2 p del {
+				color: #999999;
+			}
+			
+			#three_2 p span.shu {
+				color: #FF4142;
+			}
+			
+			#three_2 p span.xiaoshu {
+				color: #FF4142;
+				font-size: 12px;
+			}
+			
+			#three_2 p span.xiangqing {
+				color: #FF0D0D;
+			}
+			
+			#three_2 p span.tuijian {
+				color: #7C2FAD;
+			}
+			
+			#three_3 p {
+				float: left;
+				padding: 0px 0px 10px 150px;
+				line-height: 20px;
+			}
+			
+			#three_3 p del {
+				color: #999999;
+			}
+			
+			#three_3 p span.shu {
+				color: #FF4142;
+			}
+			
+			#three_3 p span.xiaoshu {
+				color: #FF4142;
+				font-size: 12px;
+			}
+			
+			#three_3 p span.xiangqing {
+				color: #FF0D0D;
+			}
+			
+			#three_3 p span.tuijian {
+				color: #7C2FAD;
+			}
+			
+			
+					#divContents #four {
+				float: left;
+				margin: 10px 2px 20px 2px;
+				background-color: #FFFFFF;
+				/**测试***/
+				width: 1095px;
+				height: 230px;
+				border: solid red 1px;
+			}
+			
+			#divContents #four ul {}
+			
+			#divContents #four ul li {
+				list-style: none;
+				float: left;
+				font-size: 14px;
+				padding: 0px 20px;
+			}
+			
+			#divContents #four #nav {
+				width: 1095px;
+				height: 40px;
+				background-color: #FF3030;
+			}
+			
+			#divContents #four #nav span.name {
+				text-align: center;
+				padding: 0px 0px 0px 10px;
+			}
+			
+			#divContents #four #nav span.gengduo {
+				text-align: center;
+				padding: 0px 0px 0px 998px;
+			}
+			
+			#divContents #four #main {}
+			
+			#divContents #four #main #one_1 {
+				margin:  0px 0px 0px 0px;
+				padding: 0px 0px 0px 10px;
+				/*width:364px;*/
+				height: 160px;
+				background:url(img/Books/9787302337416.jpg) no-repeat #FFFFFF;
+			}
+			
+			#divContents #four #main #one_2 {
+				margin: 0px 0px 0px 0px;
+				padding: 0px 0px 0px 10px;
+				/*width:364px;*/
+				height: 160px;
+				background:url(img/Books/9787302337416.jpg) no-repeat #FFFFFF;
+			}
+			
+			#divContents #four #main #one_3 {
+				margin: 0px 0px 0px 0px ;
+				padding: 0px 0px 0px 10px;
+				/*width:364px;*/
+				height: 160px;
+				background:url(img/Books/9787302337416.jpg) no-repeat #FFFFFF;
+			}
+			
+			#four_1 p {
+				float: left;
+				padding: 0px 0px 10px 150px;
+				line-height: 20px;
+			}
+			
+			#four_1 p del {
+				color: #999999;
+			}
+			
+			#four_1 p span.shu {
+				color: #FF4142;
+			}
+			
+			#four_1 p span.xiaoshu {
+				color: #FF4142;
+				font-size: 12px;
+			}
+			
+			#four_1 p span.xiangqing {
+				color: #FF0D0D;
+			}
+			
+			#four_1 p span.tuijian {
+				color: #7C2FAD;
+			}
+			
+			#four_2 p {
+				float: left;
+				padding: 0px 0px 10px 150px;
+				line-height: 20px;
+			}
+			
+			#four_2 p del {
+				color: #999999;
+			}
+			
+			#four_2 p span.shu {
+				color: #FF4142;
+			}
+			
+			#four_2 p span.xiaoshu {
+				color: #FF4142;
+				font-size: 12px;
+			}
+			
+			#four_2 p span.xiangqing {
+				color: #FF0D0D;
+			}
+			
+			#four_2 p span.tuijian {
+				color: #7C2FAD;
+			}
+			
+			#four_2 p {
+				float: left;
+				padding: 0px 0px 10px 150px;
+				line-height: 20px;
+			}
+			
+			#four_2 p del {
+				color: #999999;
+			}
+			
+			#four_2 p span.shu {
+				color: #FF4142;
+			}
+			
+			#four_2 p span.xiaoshu {
+				color: #FF4142;
+				font-size: 12px;
+			}
+			
+			#four_2 p span.xiangqing {
+				color: #FF0D0D;
+			}
+			
+			#four_2 p span.tuijian {
+				color: #7C2FAD;
+			}
+			/************尾部开始***************/
+			
+			#divFooter {}
+		</style>
+	</head>
+
+	<body>
+		<div id="divContainer">
+			<div id="header">
+				   <iframe src="header.html" scrolling="no" width="1100px" height="292px" frameborder="0"></iframe>
+			</div>
+
+			<div id="divContents">
+				<div id="one">
+					<div id="nav">
+
+						<span class="name">c++</span>
+						<span class="gengduo">更多</span>
+					</div>
+					<div id="main">
+						<h4>　C++从入门到精通　　　　　　　　　　　　　　More Effective C++　　　　　　　　　　　　C++Primer中文版</h4>
+						<ul>
+							<li>
+								<div id=one_1>
+									<p>
+										作者：明日科技<br/> 原价：
+										<del>¥59.00</del><br/> 现价：
+										<span class="shu">¥29.<span class="xiaoshu">5</span>（5折）</span><br/> 出版日期：2011-02-07
+										<br/> 出版社：清华出版社
+										<br/>
+										<br />
+										<span class="xiangqing">详情</span><span class="fuhao">|</span><span class="tuijian">推荐</span>
+									</p>
+								</div>
+							</li>
+
+							<li>
+
+								<div id=one_2>
+									<p>
+										作者：Meyers<br/> 原价：
+										<del>¥89.00</del><br/> 现价：
+										<span class="shu">¥29.<span class="xiaoshu">5</span>（5折）</span><br/> 出版日期：2011-02-07
+										<br/> 出版社：清华出版社
+										<br/>
+										<br />
+										<span class="xiangqing">详情</span><span class="fuhao">|</span><span class="tuijian">推荐</span>
+									</p>
+								</div>
+							</li>
+							<li>
+								<div id=one_3>
+									<p>
+										作者：Stanley B.Lippman<br/> 原价：
+										<del>¥59.00</del><br/> 现价：
+										<span class="shu">¥29.<span class="xiaoshu">5</span>（5折）</span><br/> 出版日期：2011-02-07
+										<br/> 出版社：清华出版社
+										<br/>
+										<br />
+										<span class="xiangqing">详情</span><span class="fuhao">|</span><span class="tuijian">推荐</span>
+									</p>
+								</div>
+							</li>
+						</ul>
+
+					</div>
+				</div>
+
+				<div id="two">
+					<div id="nav">
+
+						<span class="name">java</span>
+						<span class="gengduo">更多</span>
+					</div>
+					<div id="main">
+						<h4>　java项目开发全程实录　　　　　　　　　　　　java从入门到精通　　　　　　　　　　　　　　Java自学视频教程</h4>
+						<ul>
+							<li>
+								<div id=one_1>
+									<p>
+										作者：王国辉<br/> 原价：
+										<del>¥59.00</del><br/> 现价：
+										<span class="shu">¥29.<span class="xiaoshu">5</span>（5折）</span><br/> 出版日期：2011-02-07
+										<br/> 出版社：清华出版社
+										<br/>
+										<br />
+										<span class="xiangqing">详情</span><span class="fuhao">|</span><span class="tuijian">推荐</span>
+									</p>
+								</div>
+							</li>
+
+							<li>
+
+								<div id=one_2>
+									<p>
+										作者：明日科技<br/> 原价：
+										<del>¥59.00</del><br/> 现价：
+										<span class="shu">¥29.<span class="xiaoshu">5</span>（5折）</span><br/> 出版日期：2011-02-07
+										<br/> 出版社：清华出版社
+										<br/>
+										<br />
+										<span class="xiangqing">详情</span><span class="fuhao">|</span><span class="tuijian">推荐</span>
+									</p>
+								</div>
+							</li>
+							<li>
+								<div id=one_3>
+									<p>
+										作者：软件开发技术联盟<br/> 原价：
+										<del>¥59.00</del><br/> 现价：
+										<span class="shu">¥29.<span class="xiaoshu">5</span>（5折）</span><br/> 出版日期：2011-02-07
+										<br/> 出版社：清华出版社
+										<br/>
+										<br />
+										<span class="xiangqing">详情</span><span class="fuhao">|</span><span class="tuijian">推荐</span>
+									</p>
+								</div>
+							</li>
+						</ul>
+
+					</div>
+				</div>
+				<div id="three">
+					<div id="nav">
+
+						<span class="name">.net</span>
+						<span class="gengduo">更多</span>
+					</div>
+					<div id="main">
+						<h4>　精通C#5.0与.NET 4.5高级编程　　　　　　　　ASP.NET MVC5高级编程　　　　　　　　　　C#案例开发集锦</h4>
+						<ul>
+							<li>
+								<div id=one_1>
+									<p>
+										作者：Jon Galloway<br/> 原价：
+										<del>¥59.00</del><br/> 现价：
+										<span class="shu">¥29.<span class="xiaoshu">5</span>（5折）</span><br/> 出版日期：2011-02-07
+										<br/> 出版社：清华出版社
+										<br/>
+										<br />
+										<span class="xiangqing">详情</span><span class="fuhao">|</span><span class="tuijian">推荐</span>
+									</p>
+								</div>
+							</li>
+
+							<li>
+
+								<div id=one_2>
+									<p>
+										作者：张敬普<br/> 原价：
+										<del>¥59.00</del><br/> 现价：
+										<span class="shu">¥29.<span class="xiaoshu">5</span>（5折）</span><br/> 出版日期：2011-02-07
+										<br/> 出版社：清华出版社
+										<br/>
+										<br />
+										<span class="xiangqing">详情</span><span class="fuhao">|</span><span class="tuijian">推荐</span>
+									</p>
+								</div>
+							</li>
+							<li>
+								<div id=one_3>
+									<p>
+										作者：Stanley B.Lippman<br/> 原价：
+										<del>¥59.00</del><br/> 现价：
+										<span class="shu">¥29.<span class="xiaoshu">5</span>（5折）</span><br/> 出版日期：2011-02-07
+										<br/> 出版社：清华出版社
+										<br/>
+										<br />
+										<span class="xiangqing">详情</span><span class="fuhao">|</span><span class="tuijian">推荐</span>
+									</p>
+								</div>
+							</li>
+						</ul>
+
+					</div>
+				</div>
+				
+				<div id="four">
+					<div id="nav">
+
+						<span class="name">c++</span>
+						<span class="gengduo">更多</span>
+					</div>
+					<div id="main">
+						<h4>　C++从入门到精通　　　　　　　　　　　　　　More Effective C++　　　　　　　　　　　　C++Primer中文版</h4>
+						<ul>
+							<li>
+								<div id=one_1>
+									<p>
+										作者：明日科技<br/> 原价：
+										<del>¥59.00</del><br/> 现价：
+										<span class="shu">¥29.<span class="xiaoshu">5</span>（5折）</span><br/> 出版日期：2011-02-07
+										<br/> 出版社：清华出版社
+										<br/>
+										<br />
+										<span class="xiangqing">详情</span><span class="fuhao">|</span><span class="tuijian">推荐</span>
+									</p>
+								</div>
+							</li>
+
+							<li>
+
+								<div id=one_2>
+									<p>
+										作者：Stanley B.Lippman<br/> 原价：
+										<del>¥59.00</del><br/> 现价：
+										<span class="shu">¥29.<span class="xiaoshu">5</span>（5折）</span><br/> 出版日期：2011-02-07
+										<br/> 出版社：清华出版社
+										<br/>
+										<br />
+										<span class="xiangqing">详情</span><span class="fuhao">|</span><span class="tuijian">推荐</span>
+									</p>
+								</div>
+							</li>
+							<li>
+								<div id=one_3>
+									<p>
+										作者：Stanley B.Lippman<br/> 原价：
+										<del>¥59.00</del><br/> 现价：
+										<span class="shu">¥29.<span class="xiaoshu">5</span>（5折）</span><br/> 出版日期：2011-02-07
+										<br/> 出版社：清华出版社
+										<br/>
+										<br />
+										<span class="xiangqing">详情</span><span class="fuhao">|</span><span class="tuijian">推荐</span>
+									</p>
+								</div>
+							</li>
+						</ul>
+
+					</div>
+				</div>
+				
+			</div>
+
+			<div id="divFooter">
+				<iframe src="footer.html" scrolling="no" width="1100px" height="234px" frameborder="0"></iframe>
+			</div>
+		</div>
+	</body>
+
+</html>

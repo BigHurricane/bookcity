@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style>
+			  *{
+			  	margin: 0px;
+			  	padding: 0px;
+			  	
+			  }
+
+			  #box
+			  {
+			  	 margin: 0px auto;
+			  	 width: 1110px;
+			  }
+			   #box iframe
+			   {
+			   	    
+			   	    width: 1110px; 
+			   	    border:none;
+			   }
+			   #box #header iframe
+			   {
+			   	 height: 300px;
+			   	 margin-bottom: 5px;
+			   	
+			   }			   
+			    #box #footer iframe
+			    {
+			    	height: 234px;
+			    }
+
+			
+			
+			
+			body{
+				margin: 0px;
+				padding: 0px;
+			}
+		      #header{position: relative;width: 1100px;}
+			 #header #nav2 {position: absolute;top: 255px;}
+			 #header #nav2 ul li{float: left;padding: 8.5px 39px 0px 0px;}
+			 #header #nav2 ul li a{text-decoration: none;color:#FFFFFF;}
+			 #header #nav2 ul li.souye{padding: 8.5px 330px 0px 0px; }
+			 #header #nav2 ul li a:hover{color: orange; position: relative; left: 2px;top:2px;transform: rotate(360deg);transition-duration: 3px;}
+		
+			#main{
+				margin-top: 10px;
+				/*border: 1px solid black;*/   /*测试*/
+				height: 1450px;
+				width: 1099px;
+			}
+			#left{
+				float: left;
+				
+			}
+			#left table{
+                border-collapse:collapse;
+  			}
+            #left table td{
+            	width: 158px;
+            	height: 27.9px;
+            }
+            #left table th{
+            	color: white;
+            	border:1px solid red;
+            	background-color: red;
+            	height: 30px;
+            }
+         #left table td{
+				 border:1px solid red;
+				 text-align: center;
+		    }
+		   .fir td:hover{background-color: lightcoral; }
+		    .sec td:hover{background-color: lemonchiffon;}
+		    .thi td:hover{background-color: lightskyblue;}
+		    .fou td:hover{background-color:turquoise ;}
+		    .fiv td:hover{background-color:lightgreen;}
+			#right{
+				float: right;
+			}
+			#right {
+				
+			}
+			 #book {
+			 	width: 750px;
+				border: 1px solid red;
+				border-collapse:collapse;
+			}
+			#right #book th{
+				height: 37px;
+				color: white;
+				font-size: x-large;
+				background-color: #FF3030;
+			}
+			#right #book tr{
+				/*width: 40px;*/
+			}
+			#right #book td{
+				/*border: 1px solid black;*/ /* 测试*/
+			}
+			 caption{
+				color: #000066;
+				font-size: 18px;
+				font-weight: bold;	
+				text-align: left;
+				margin-left: 40px;
+				/*padding-top:0px ;*/
+				/*padding-top: 0px;*/
+				
+			}
+			img
+			{
+				 transition:transform 1s;
+			}
+			img:hover
+			{
+				 transform:skew(2deg,2deg);
+				
+				 
+			}
+			 ul{
+				padding: 2px 0px 0px 2px;
+			}
+			ul li{
+				list-style: none;
+			    padding: 0px 0px 4px 0px;
+			}
+			#hot{
+				background-color: ##FF3030;
+			}
+	
+			#gun {
+				margin: 5px 0px 0px 0px;
+				width: 360px;
+				height: 215px;
+				overflow-y: scroll;
+			}
+			#gun ol{padding-left: 32px;}
+			#gun ol li
+			{
+			    padding: 0px 0px 4px 0px;
+			}
+			#gun li{
+				padding: 0px 0px 2px 0px;
+				color:blue;
+				font-weight:600;
+			}
+			
+			 span.xiang{ 
+				
+				color: red;
+				
+			}
+			span.tui{
+				color: purple;
+			}
+			.leftjianju
+			{
+				font-size: 14px;
+				padding: 0px 0px 0px 5px;
+			}
+			#box #bodyer #left table
+			{
+				width:
+			}
+			#box #bodyer #left  thead th
+			{
+				background-color: #FF3030;
+			}
+			
+			
+			#net{
+				width: 1097px;
+				border: 1px solid red;
+				margin-top: 15px;
+				float: left;
+			}
+			h2{color: white;background-color: #FF3030;margin-top:0px; padding: 5px 0px 5px 5px;font-size: 14px;}
+			#wenxue{float: left;border: 1px solid red;	margin-top: 15px;width: 1100px;}
+			del{color: gray;}
+			
+			#footer{margin-top: -150px;height: 234px;}
+		</style>
+	</head>
+	<body>
+		 <div id="box">
+		      <div id="header">
+		      	     <iframe src="头部.html" scrolling="no"></iframe>
+		      	      <div id="nav2">
+			 	  	      <ul>
+			  	 		 	<li class="souye"><a hrel="#">当前位置:首页</a></li>
+			  	 		 	
+			  	 		 	<li><a href="首页.html" target="_self">首页</a></li>
+			  	 		 	
+			  	 		 	<li><a href="大类更多.html" target="_self">热门图书</a></li>
+			  	 		 	
+			  	 		 	<li><a href="小类更多.html" target="_self">新书上架</a></li>
+			  	 		 	
+			  	 		 	<li><a href="" target="_self">销售排行榜</a></li>
+			  	 		 	
+			  	 		 	<li><a href="#" target="_self">读者推荐</a></li>
+			  	 		 	
+			  	 		 	<li><a href="购物车.html" target="_self">购物车</a></li>
+			  	 		 	
+			  	 		 	<li><a href="登录1.html">登录</a></li>
+			  	 		 </ul>
+		 	        </div>
+		      </div>
+		       
+		        <div id="bodyer">
+		      	     <div id="main">
+				<div id="left">
+					<table class="fir">
+						<thead >
+							<th align="left" class="leftjianju" >计算机与互联网</th>
+							<th>&nbsp;</th>
+						</thead>
+						<tbody>
+							<tr>
+								<td>.net开发</td>
+								<td>java开发</td>
+							</tr>
+							<tr>
+								<td>php开发</td>
+								<td>c/c++开发</td>
+							</tr>
+							<tr>
+								<td>数据库</td>
+								<td>电子商务</td>
+							</tr>
+					    </tbody>
+				</table>
+				<table class="sec">
+					<thead>
+							<th align="left" class="leftjianju">教育</th>
+							<th>&nbsp;</th>
+					</thead>
+					<tbody>
+				   <tr>
+                    	<td>公务员</td>
+                    	<td>英语四级</td>
+                    </tr>
+                    <tr>
+                    	<td>中小学教辅</td>
+                    	<td>大大中专教材</td>
+                    </tr>
+                    </tbody>
+				</table>
+				<table class="thi">
+					<thead>
+						<th align="left" class="leftjianju">中外文学</th>
+						<th>&nbsp;</th>
+					</thead>
+					<tbody>
+						<tr>
+							<td>中国当现随笔</td>
+							<td>中国古诗词</td>
+						</tr>
+						<tr>
+							<td>外国随笔</td>
+							<td>外国诗歌</td>
+						</tr>
+					</tbody>
+				</table>
+				<table class="fou">
+					<thead>
+						<th align="left" class="leftjianju">励志与成功</th>
+						<th>&nbsp;</th>
+					</thead>
+					<tbody>
+						<tr>
+							<td>个人修养</td>
+							<td>成功学</td>
+						</tr>
+						<tr>
+							<td>求职面试</td>
+							<td>时间管理</td>
+						</tr>
+					</tbody>
+				</table>
+				<table class="fiv">
+					<thead>
+						<th align="left" class="leftjianju">健身与保健</th>
+						<th>&nbsp;</th>
+					</thead>
+					<tbody>
+						<tr>
+							<td>运动健康</td>
+							<td>上班族保健</td>
+						</tr>
+						<tr>
+							<td>中医养生</td>
+							<td>心理健康</td>
+						</tr>
+					</tbody>
+				</table>
+				</div>
+				<div id="right">
+					<table id="book">
+						<thead>
+							<th align="left" class="leftjianju" style="font-size: 20px;font-weight: normal;">HOT</th>
+							<th>&nbsp;</th>
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+									<table>
+										<caption>精通c# 5.0与.NET 4.5高级编程</caption>
+								        <tr>
+								        	<td><img src="img/Books/9787302333883.jpg"/></td>
+								        	<td>
+								        		<ul>
+								        		<li>作者：张敬普</li>
+												<li>原价：<del>￥59.00</del></li>
+												<li>现价：<span class="xiang">￥53.<small>1</small>(9折)</span></li>
+												<li>出版日期：2011-02-01</li>
+												<li>出版社：清华大学出版社</li>
+											</ul>
+												<span class="xiang">详情</span>|<span class="tui">推荐</span>
+												
+								        	</td>
+								        </tr>
+									</table>
+								</td>
+								<td id="hot">
+									<table>
+										<caption>HOT TOP 20</caption>
+										<tr>
+											<td>
+												<div id="gun">
+												<ol type="1">
+													<li>精通C#5.0与.NET4.5高级编程  <span class="xiang">￥53.1</span></li>
+													<li>阿Q正传  <span class="xiang">￥33</span></li>
+													<li>JAVA项目开发全程实录  <span class="xiang">￥48.3</span></li>
+													<li>C++从入门到精通  <span class="xiang">￥29.5</span></li>
+													<li>Java从入门到精通  <span class="xiang">￥29.5</span></li>
+													<li>More Effective C++  <span class="xiang">￥44.5</span></li>
+													<li>ASP.NET MVC 5高级编程  <span class="xiang">￥35.88</span></li>
+													<li>C++ Primer中文版  <span class="xiang">￥44.5</span></li>
+													<li>C++程序语言  <span class="xiang">￥44.5</span></li>
+													<li>C++程序设计  <span class="xiang">￥24.0</span></li>
+													<li>西游记  <span class="xiang">￥33.5</span></li>
+													<li>三国演义  <span class="xiang">￥35.0</span></li>
+											   </ol>
+											   </div>
+											</td>
+											
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<table>
+										<caption>阿Q正传</caption>
+								        <tr>
+								        	<td><img src="img/Books/9787550241077.jpg"/></td>
+								        	<td>
+								        		<ul>
+								        		<li>作者：鲁迅</li>
+												<li>原价：<del>￥66.00</del></li>
+												<li>现价：<span class="xiang">￥33(5折)</span></li>
+												<li>出版日期：2011-02-01</li>
+												<li>出版社：人民邮电出版社</li>
+											</ul>
+												<span class="xiang">详情</span>|<span class="tui">推荐</span>
+								        	</td>
+								        </tr>
+									</table>
+								</td>
+								<td>
+									<table>
+										<caption>Java项目开发全程实录</caption>
+								        <tr>
+								        	<td><img src="img/Books/9787302337416.jpg"/></td>
+								        	<td>
+								        		<ul>
+								        		<li>作者：王国辉</li>
+												<li>原价：<del>￥69.00</del></li>
+												<li>现价：<span class="xiang">￥48.<small>3</small>(7折)</span></li>
+												<li>出版日期：2009-02-01</li>
+												<li>出版社：清华出版社</li>
+											    </ul>
+												
+												<span class="xiang">详情</span>|<span class="tui">推荐</span>
+								        	</td>
+								        </tr>
+									</table>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div id="net">
+				<!--	<div id="nethead">-->
+						<h2>计算机与互联网</h2>
+					<!--</div>-->
+					<div>
+						<table>
+							<tr>
+								<td>
+									<table>
+										<caption>精通c# 5.0与.NET 4.5高级编程</caption>
+								        <tr>
+								        	<td><img src="img/Books/9787302333883.jpg" width="150" height="150"/></td>
+								        	<td>
+								        		<ul>
+								        		<li>作者：张敬普</li>
+												<li>原价：<del>￥59.00</del></li>
+												<li>现价：<span class="xiang">￥53.<small>1</small>(9折)</span></li>
+												<li>出版日期：2011-02-01</li>
+												<li>出版社：清华大学出版社</li>
+											</ul>
+												<span class="xiang">详情</span>|<span class="tui">推荐</span>
+												
+								        	</td>
+								        </tr>
+									</table>
+								</td>
+								<td><table>
+										<caption>Java项目开发全程实录</caption>
+								        <tr>
+								        	<td><img src="img/Books/9787302337416.jpg"/></td>
+								        	<td>
+								        		<ul>
+								        		<li>作者：王国辉</li>
+												<li>原价：<del>￥69.00</del></li>
+												<li>现价：<span class="xiang">￥48.<small>3</small>(7折)</span></li>
+												<li>出版日期：2009-02-01</li>
+												<li>出版社：清华出版社</li>
+											</ul>
+												
+												<span class="xiang">详情</span>|<span class="tui">推荐</span>
+								        	</td>
+								        </tr>
+									</table>
+								</td>
+								<td>
+									<table>
+										<caption>C++从入门到精通</caption>
+								        <tr>
+								        	<td><img src="img/Books/9787302288473.jpg"/></td>
+								        	<td>
+								        		<ul>
+								        		<li>作者：明日科技</li>
+												<li>原价：<del>￥59.00</del></li>
+												<li>现价：<span class="xiang">￥29.<small>5</small>(5折)</span></li>
+												<li>出版日期：2011-02-07</li>
+												<li>出版社：清华出版社</li>
+											</ul>
+												
+												<span class="xiang">详情</span>|<span class="tui">推荐</span>
+								        	</td>
+								        </tr>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<table>
+										<caption>Java从入门到精通</caption>
+								        <tr>
+								        	<td><img src="img/Books/9787302287568.jpg" width="150" height="150"/></td>
+								        	<td>
+								        		<ul>
+								        		<li>作者：明日科技</li>
+												<li>原价：<del>￥59.00</del></li>
+												<li>现价：<span class="xiang">￥29.<small>5</small>(5折)</span></li>
+												<li>出版日期：2009-02-01</li>
+												<li>出版社：清华大学出版社</li>
+											</ul>
+												<span class="xiang">详情</span>|<span class="tui">推荐</span>
+												
+								        	</td>
+								        </tr>
+									</table>
+								</td>
+								<td>
+									<table>
+										<caption>More Effective C++</caption>
+								        <tr>
+								        	<td><img src="img/Books/9787121125706.jpg"/></td>
+								        	<td>
+								        		<ul>
+								        		<li>作者：Meyers</li>
+												<li>原价：<del>￥89.00</del></li>
+												<li>现价：<span class="xiang">￥44.<small>5</small>(5折)</span></li>
+												<li>出版日期：2011-08-01</li>
+												<li>出版社：清华大学出版社</li>
+											</ul>
+												<span class="xiang">详情</span>|<span class="tui">推荐</span>
+												
+								        	</td>
+								        </tr>
+									</table>
+								</td>
+								<td>
+									<table>
+										<caption>C++ Primer中文版</caption>
+								        <tr>
+								        	<td><img src="img/Books/9787121155352.jpg"/></td>
+								        	<td>
+								        		<ul>
+								        		<li>作者：Stanley B.Lippman</li>
+												<li>原价：<del>￥89.00</del></li>
+												<li>现价：<span class="xiang">￥44.<small>5</small>(5折)</span></li>
+												<li>出版日期：2011-02-01</li>
+												<li>出版社：清华大学出版社</li>
+											</ul>
+												<span class="xiang">详情</span>|<span class="tui">推荐</span>
+												
+								        	</td>
+								        </tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+				<div id="wenxue">
+					<h2>文学</h2>
+					<table>
+						<tr>
+							<td>
+								<table>
+										<caption>阿Q正传</caption>
+								        <tr>
+								        	<td><img src="img/Books/9787550241077.jpg"/></td>
+								        	<td>
+								        		<ul>
+								        		<li>作者：鲁迅</li>
+												<li>原价：<del>￥66.00</del></li>
+												<li>现价：<span class="xiang">￥33<small></small>(5折)</span></li>
+												<li>出版日期：2011-02-01</li>
+												<li>出版社：清华大学出版社</li>
+											</ul>
+												<span class="xiang">详情</span>|<span class="tui">推荐</span>
+												
+								        	</td>
+								        </tr>
+									</table>
+							</td>
+							<td>
+								<table>
+										<caption>西游记</caption>
+								        <tr>
+								        	<td><img src="img/Books/9787115129661.jpg"/></td>
+								        	<td>
+								        		<ul>
+								        		<li>作者：吴承恩</li>
+												<li>原价：<del>￥59.00</del></li>
+												<li>现价：<span class="xiang">￥53.<small>1</small>(9折)</span></li>
+												<li>出版日期：2011-02-01</li>
+												<li>出版社：清华大学出版社</li>
+											</ul>
+												<span class="xiang">详情</span>|<span class="tui">推荐</span>
+												
+								        	</td>
+								        </tr>
+									</table>
+							</td>
+							<td>
+								<table>
+										<caption>三国演义</caption>
+								        <tr>
+								        	<td><img src="img/Books/9787115129663.jpg"/></td>
+								        	<td>
+								        		<ul>
+								        		<li>作者：罗贯中</li>
+												<li>原价：<del>￥66.00</del></li>
+												<li>现价：<span class="xiang">￥53.<small>1</small>(9折)</span></li>
+												<li>出版日期：2011-02-01</li>
+												<li>出版社：清华大学出版社</li>
+											</ul>
+												<span class="xiang">详情</span>|<span class="tui">推荐</span>
+												
+								        	</td>
+								        </tr>
+									</table>
+							</td>
+						</tr>
+						<tr>
+							<td>
+							<table>
+										<caption>悲惨世界</caption>
+								        <tr>
+								        	<td><img src="img/Books/9787515907666.jpg"/></td>
+								        	<td>
+								        		<ul>
+								        		<li>作者：维克多.雨果</li>
+												<li>原价：<del>￥78.00</del></li>
+												<li>现价：<span class="xiang">￥39.<small>1</small>(5折)</span></li>
+												<li>出版日期：2011-02-01</li>
+												<li>出版社：清华大学出版社</li>
+											</ul>
+												<span class="xiang">详情</span>|<span class="tui">推荐</span>
+												
+								        	</td>
+								        </tr>
+									</table>
+							</td>
+							<td>
+								<table>
+										<caption>格列佛游记</caption>
+								        <tr>
+								        	<td><img src="img/Books/9787515907222.jpg"/></td>
+								        	<td>
+								        		<ul>
+								        		<li>作者：斯威夫特</li>
+												<li>原价：<del>￥34.00</del></li>
+												<li>现价：<span class="xiang">￥17<small></small>(5折)</span></li>
+												<li>出版日期：2011-02-01</li>
+												<li>出版社：清华大学出版社</li>
+											</ul>
+												<span class="xiang">详情</span>|<span class="tui">推荐</span>
+												
+								        	</td>
+								        </tr>
+									</table>
+							</td>
+							<td>
+							<table>
+										<caption>小王子</caption>
+								        <tr>
+								        	<td><img src="img/Books/9787515906966.jpg"/></td>
+								        	<td>
+								        		<ul>
+								        		<li>作者：圣埃克苏佩里</li>
+												<li>原价：<del>￥66.00</del></li>
+												<li>现价：<span class="xiang">￥33<small></small>(5折)</span></li>
+												<li>出版日期：2011-02-01</li>
+												<li>出版社：清华大学出版社</li>
+											</ul>
+												<span class="xiang">详情</span>|<span class="tui">推荐</span>
+												
+								        	</td>
+								        </tr>
+									</table>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		        </div>
+		       
+		      <div id="footer">
+		      	      <iframe src="脚部.html" scrolling="no"></iframe>
+		      </div> 	
+		 </div>
+
+	
+		</div>
+	</body>
+</html>
